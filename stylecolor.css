@@ -1,0 +1,67 @@
+body {
+    display: grid;
+    height: 100vh;
+    width: 100vh;
+    gap: 4rem;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #cccccc;
+
+}
+
+button {
+    height: 25%;
+    width: 50%;
+    border: none;
+    background-color: purple;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: auto;
+    outline-color: #cccccc;
+
+    color: snow;
+    box-shadow: 2px 2px snow;
+}
+button:active{
+    background-color: rgb(212, 5, 212);
+}
+#allB {
+    background-color: blue;
+}
+#allB:active{
+    background-color: rgb(78, 78, 255);
+}
+.greenBox {
+    grid-template-columns: 1 / span 1;
+
+    background-color: #BEFF05;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.blueBox{
+    grid-template-columns: 1 / span 1;
+    
+    background-color: #c1f6f3;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.redBox {
+    grid-template-columns: 1 / span 1;
+    
+    background-color: #ff0532;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.yellowBox {
+    grid-template-columns: 1 / span 1;
+    
+    background-color: yellow;
+    border-radius: 10px;
+    visibility: hidden;
+}
